@@ -2,10 +2,18 @@
     <mat-sidenav opened mode="side" opened>
         <nav class="left-navbar">
             <div class="navbar-header">
-                    <div class="logo">
-                        <img class="logo-icon" src="/assets/images/fuse.svg">
-                        <span class="logo-text">FUSE</span>
-                    </div>
+                <div class="logo">
+                    <img class="logo-icon" src="/assets/images/fuse.svg">
+                    <span class="logo-text">FUSE</span>
+                </div>
+                <button class="toggle-button-navbar mat-icon-button mat-button" fusenavbarvertical="toggleFold" fxhide.lt-lg="" mat-button="" style="display: block;">
+                    <span class="mat-button-wrapper">
+                        <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">menu</mat-icon>
+                    </span>
+                    <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                    <div class="mat-button-focus-overlay"></div>
+                </button>
+                    
             </div>
         </nav>
     </mat-sidenav>
